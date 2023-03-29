@@ -46,6 +46,7 @@ function Coins() {
             key={i.show.id}
             id={i.show.id}
             img={i.show.image} 
+            lang={i.show.language} 
           />
         ))}
       </HStack>
