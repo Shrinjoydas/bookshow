@@ -33,7 +33,6 @@ function CoinDetails() {
           `https://api.tvmaze.com/search/shows?q=${name}`
         );
         setmovies(data[0].show);
-        console.log(data[0].show);
         setLoading(false);
       } catch (error) {
         setError(true);
