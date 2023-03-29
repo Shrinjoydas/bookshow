@@ -28,7 +28,7 @@ function CoinCard({ name, img}) {
         <Heading size={'md'}>
         </Heading>
         <Text >{name}</Text>
-        <Text noOfLines={1}></Text>
+        <Text color={'gray.500'} fontSize={'smaller'}>Language : {lang}</Text>
       </VStack>
     </Link>
   );
