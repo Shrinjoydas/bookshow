@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/bookshow/static/js/main.f679dce9.js",
+    "index.html": "/bookshow/index.html",
+    "main.f679dce9.js.map": "/bookshow/static/js/main.f679dce9.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.f679dce9.js"
+  ]
+}
