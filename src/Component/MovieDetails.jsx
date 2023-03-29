@@ -70,7 +70,6 @@ function CoinDetails() {
 
             <Stat p={'4'}>
               <StatLabel fontSize={'3xl'}>{movies.name}</StatLabel>
-              <StatNumber></StatNumber>
             </Stat>
 
             {/* Summary*/}
