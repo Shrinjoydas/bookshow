@@ -111,7 +111,7 @@ function CoinDetails() {
             >
               <HStack p={'.45rem'} w={['20rem', '30rem']} justifyContent={'space-between'}>
                 <Text letterSpacing={'widest'}>Rating </Text>
-                <Text>{movies.rating.average}</Text>
+                <Text>{movies.rating.average ? movies.rating.average : 'NA'}</Text>
               </HStack>
 
               <HStack p={'.45rem'} w={['20rem', '30rem']} justifyContent={'space-between'}>
